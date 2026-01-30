@@ -7,3 +7,7 @@ function sum(arr){
     return s;
 }
 
+function average(arr){
+    return sum(arr)/arr.length();
+}
+
