@@ -34,3 +34,13 @@ function max(arr){
 function capitalize(str){
     return str[0].toUpperCase().concat(str.substring(1));
 }
+
+function reverse(str){
+    let s = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        s = s.concat(str[i]);
+    }
+    return s;
+}
+
+console.log(reverse("hello"));
