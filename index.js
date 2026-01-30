@@ -30,3 +30,7 @@ function max(arr){
     }
     return m;
 }
+
+function capitalize(str){
+    return str[0].toUpperCase().concat(str.substring(1));
+}
