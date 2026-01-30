@@ -20,3 +20,13 @@ function min(arr){
     }
     return m;
 }
+
+function max(arr){
+    m = arr[0];
+    for(const a of arr){
+        if (m > a){
+            m = a;
+        }
+    }
+    return m;
+}
