@@ -11,3 +11,12 @@ function average(arr){
     return sum(arr)/arr.length();
 }
 
+function min(arr){
+    m = arr[0];
+    for(const a of arr){
+        if (a < m){
+            m = a;
+        }
+    }
+    return m;
+}
