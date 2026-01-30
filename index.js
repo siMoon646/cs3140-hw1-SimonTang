@@ -38,7 +38,7 @@ function max(arr) {
   // TODO: Return the largest number
     m = arr[0];
     for(const a of arr){
-        if (m > a){
+        if (m < a){
             m = a;
         }
     }
